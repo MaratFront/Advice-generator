@@ -49,10 +49,14 @@ body {
     margin: auto;
     margin-top: 20px;
     display: flex;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     height: 40px;
     border-radius: 100%;
+  }
+  .Advice__btn:hover {
+    box-shadow: 5px 55px 54px solid hsl(150, 100%, 66%);
   }
 }
 @media (min-width: 1024px) {
